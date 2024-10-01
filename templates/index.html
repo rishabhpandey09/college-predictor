@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+
+{%block style%}
+<style>
+.bg{
+  width: 100vw;
+  height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+  background:url(https://cdn.britannica.com/03/130603-050-37F7F535/Alliman-Administration-Center-Hesston-College-Mennonite-college.jpg) center center/cover no-repeat;
+}
+/* .line{
+  height: 2px;
+  width: 100vw;
+  background-color: aliceblue;
+  position: absolute;
+  top: 200px;
+} */
+.text{
+  font-weight:bolder;
+  text-shadow: black 11px 7px 7px;
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+</style>
+{%endblock style%}
+
+{%block body%}
+<div class="bg">
+    <i><p class="text">College predictor</p></i>
+    <!-- <div class="line"></div> -->
+  </div>
+
+{%endblock body%}
+
+
+  
